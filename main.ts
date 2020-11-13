@@ -42,17 +42,24 @@ input.onButtonPressed(Button.B, function () {
         # . # . #
         `)
     for (let index = 0; index < 5; index++) {
+        music.playMelody("A G A G A B C5 B ", 230)
+        music.playMelody("C5 B C5 B A G A C5 ", 230)
+        music.playMelody("C5 B C5 B A F G A ", 230)
+        music.playMelody("C5 B C5 B A F G A ", 230)
+        music.playMelody("E F G A B G B D ", 230)
+        music.playMelody("A E B A G A B C5 ", 230)
+        music.playMelody("C5 B C5 B A F G A ", 230)
+        music.playMelody("B C C5 B A F B C5 ", 230)
+        music.playMelody("A B C5 B A E C5 G ", 230)
+        music.playMelody("C5 B C5 B A F G A ", 230)
         music.playMelody("A G A G A B C5 B ", 206)
-        music.playMelody("C5 B C5 B A G A C5 ", 206)
-        music.playMelody("C5 B C5 B A F G A ", 206)
-        music.playMelody("C5 B C5 B A F G A ", 206)
-        music.playMelody("E F G A B G B D ", 206)
-        music.playMelody("A E B A G A B C5 ", 206)
-        music.playMelody("C5 B C5 B A F G A ", 206)
-        music.playMelody("B C C5 B A F B C5 ", 206)
-        music.playMelody("A B C5 B A E C5 G ", 206)
-        music.playMelody("C5 B C5 B A F G A ", 206)
-        music.playMelody("A G A G A B C5 B ", 206)
+        music.playMelody("F E F B A B C5 B ", 230)
+        music.playMelody("G A G A B A B C5 ", 230)
+        music.playMelody("B C C5 A G A B C5 ", 230)
+        music.playMelody("B A E A B A B C5 ", 230)
+        music.playMelody("C5 B A G A G A C5 ", 230)
+        music.playMelody("C5 B A G A G A B ", 230)
+        music.playMelody("F E F B A B C5 B ", 230)
     }
 })
 input.onGesture(Gesture.Shake, function () {
@@ -68,8 +75,8 @@ input.onGesture(Gesture.Shake, function () {
     }
     if (dice_roll == 2) {
         basic.showLeds(`
-            # # # . .
-            . . # . .
+            # # # # .
+            . . # # .
             . # # . .
             # # . . .
             # # # # .
@@ -123,7 +130,7 @@ input.onGesture(Gesture.Shake, function () {
     if (dice_roll == 8) {
         basic.showLeds(`
             . # # # .
-            . # . # .
+            . # . . .
             . # # # .
             . # . # .
             . # # # .
