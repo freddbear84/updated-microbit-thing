@@ -16,10 +16,10 @@ input.onButtonPressed(Button.A, function () {
         basic.pause(1500)
         basic.showLeds(`
             . # # # .
-            . # . . .
-            . # # # .
+            # . . . .
+            . # # . .
             . . . # .
-            . # # # .
+            # # # . .
             `)
     }
     if (hand == 3) {
